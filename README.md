@@ -15,11 +15,11 @@ Now follow the steps from the section **"arm64 : apple silicon"** according to t
 
 **Once I have Tensorflow in my machine I will install Opencv for mac**
    
-   $ conda install -c conda-forge opencv
+    $ conda install -c conda-forge opencv
    
-**Now Install ipkernal on mac**
+**Now Install ipykernal on mac**
 
-  $ pip install ipykernel
+    $ pip install ipykernel 
   
 
 
