@@ -9,8 +9,8 @@ def get_user_choice():
 #random computer choice 
 def get_computer_choice():
     random_lists = ['Rock', 'Paper', 'Scissors','Nothing']
-    RPSN_game = random.choice(random_lists)
-    return RPSN_game
+    rpsn_game = random.choice(random_lists)
+    return rpsn_game
 
 msg = ""
 # Winner
