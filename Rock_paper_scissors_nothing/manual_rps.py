@@ -3,7 +3,7 @@ import random
 
 #User Input 
 def get_user_choice():
-    User_choice = input("Please Enter your choice: ")
+    User_choice = input("Please Enter your choice (Rock, Paper,Scissors,Nothing): ")
     return User_choice
 
 #random computer choice 
@@ -15,14 +15,13 @@ def get_computer_choice():
 msg = ""
 # Winner
 def get_winner():
-    User_Input = get_user_choice()
-    Computer_input = get_computer_choice()
-    print("User's choise is: ", User_Input)
-    print("Computer's Choise is: ", Computer_input)
-    if (Computer_input != User_Input):
-        msg = "Computer Wins"
-    else:
-        msg = "User Win"
+    user_Input = get_user_choice()
+    computer_input = get_computer_choice()
+    print(f"\nYou chose {user_Input}, computer chose {computer_input}.\n")
+    if (computer_input == user_Input):
+        msg = "Both players selected "+ user_Input +". It's a tie!"
+    elif(computer_input != user_Input):
+        msg = "Computer Win"    
     return msg 
    
 winner_game = get_winner()
