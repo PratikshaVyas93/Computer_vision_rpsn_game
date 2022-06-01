@@ -20,21 +20,8 @@ $ cd Rock_paper_scissors_nothing
 ```sh
 $ pip install -r requirements.txt
 
-Run these command on terminal 
-
-    $ conda create -n tensorflow-env python=3.9
-    $ conda activate tensorflow-env
-    $ conda install pip
-    
-Now follow the steps from the section **"arm64 : apple silicon"** according to this [link](https://developer.apple.com/metal/tensorflow-plugin/)    
-
-**Once I have Tensorflow in my machine I will install Opencv for mac**
-   
-    $ conda install -c conda-forge opencv
-   
-**Now Install ipykernal on mac**
-
-    $ pip install ipykernel 
-  
-
-
+3. Load tensorfloe keras_model.h5 on model (this file contain train and test model with labels that suggest (Rock, Paper, Scissors and Nothing))
+```sh
+$ run camera_rps.py
+and play the game !!!
+```
