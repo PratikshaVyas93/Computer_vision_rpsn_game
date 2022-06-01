@@ -1,7 +1,7 @@
 ################################################################################################################
 """
 Author : Pratiksha
-File name : camera_rps.py
+File name : manual_rps.py
 Purpose : human and computer playing Rock Paper Scissors game
  
 """
