@@ -19,6 +19,7 @@ $ cd Rock_paper_scissors_nothing
 2. Install the dependencies
 ```sh
 $ pip install -r requirements.txt
+```
 
 3. Load tensorfloe keras_model.h5 on model (this file contain train and test model with labels that suggest (Rock, Paper, Scissors and Nothing))
 ```sh
