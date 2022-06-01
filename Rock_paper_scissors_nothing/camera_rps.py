@@ -87,13 +87,11 @@ def get_prediction():
             if user_move != "Nothing":
                 computer_move = choice(["Rock", "Paper", "Scissors"])
                 winner = calculate_winner(user_move, computer_move)
-                print(winner, 'winner')
             
             else:
                 computer_move = "Nothing"
                 winner = "Waiting..."
-        prev_move = user_move
-        print(prev_move, 'user previous move')        
+        prev_move = user_move       
            # display the information
         font = cv2.FONT_HERSHEY_SIMPLEX
         cv2.putText(frame, "Your Move: " + user_move,
