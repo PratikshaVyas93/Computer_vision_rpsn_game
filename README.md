@@ -14,8 +14,12 @@
 ```sh
 $ git clone https://github.com/PratikshaVyas93/Computer_vision_rpsn_game.git
 
-$ cd 
+$ cd Rock_paper_scissors_nothing
 ```
+2. Install the dependencies
+```sh
+$ pip install -r requirements.txt
+
 Run these command on terminal 
 
     $ conda create -n tensorflow-env python=3.9
