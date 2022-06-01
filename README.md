@@ -2,9 +2,20 @@
 
 ## The purpose of this file is to maintain docummentation of computer vision project
 
-### Step 1: creating an conda tenserflow env on MAC to run the project 
 
- 
+## Requirements
+- Python 3
+- Keras
+- Tensorflow
+- OpenCV
+
+## Set up instructions
+1. Clone the repo.
+```sh
+$ git clone https://github.com/PratikshaVyas93/Computer_vision_rpsn_game.git
+
+$ cd 
+```
 Run these command on terminal 
 
     $ conda create -n tensorflow-env python=3.9
