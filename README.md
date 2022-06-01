@@ -21,7 +21,8 @@ $ cd Rock_paper_scissors_nothing
 $ pip install -r requirements.txt
 ```
 
-3. Load tensorfloe keras_model.h5 on model (this file contain train and test model with labels that suggest (Rock, Paper, Scissors and Nothing))
+3. Load tensorflow keras_model.h5 in file (camera_rps.py) 
+(this file contain train and test model with labels that suggest (Rock, Paper, Scissors and Nothing))
 ```sh
 $ run camera_rps.py
 and play the game !!!
