@@ -22,9 +22,11 @@ $ pip install -r requirements.txt
 ```
 
 3. Load tensorflow keras_model.h5 in file (camera_rps.py) 
-(this file contain train and test model with labels that suggest (Rock, Paper, Scissors and Nothing))
 ```sh
+(this file contain train and test model with labels that suggest (Rock, Paper, Scissors and Nothing))
+```
 
 4. And play the game !!!
+```sh
 $ run camera_rps.py
 ```
