@@ -71,7 +71,6 @@ def get_prediction():
     prev_move = "Nothing"
     computer_move = "Nothing"
     winner = "Nothing"
-    #round_time = time.time()
     Game_Name = "ROCK PAPER SCISSORS"
     print('Welcome to ' +Game_Name+ ' Game! ')
     while True:
