@@ -1,7 +1,7 @@
 # Computer_vision_rpsn_game
 
 ## The purpose of this file is to maintain docummentation of computer vision project
-
+## Rock Paper and Scissors
 
 ## Requirements
 - Python 3
